@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>html form</title>
+    <link rel="stylesheet" href="css/screen.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Form Page</h2>
+        <p>practice on how to make form</p>    
+    </header>
+
+        <img src="tech.gif" alt="code is written on this image">
+
+<!--this is a form-->
+    <form>
+        <label for="firstName">first Name:</label>
+        <input id="firstName"  type="text">
+        <br>
+
+        <label for="LastName">LastName:</label>
+        <input id="LastName" type="text">
+        <br>
+
+        <button type="submit" class="light-botton">Submit</button>
+    </form>
+
+    <label for="favouriteColor">what is your favourite color</label>
+    <select id="favouriteColor" name="favouriteColor?">
+        <option value="colorRed">Red</option>
+        <option value="colorYellow">Yellow</option>
+        <option value="colorBrown">brown</option>
+    </select>
+
+    <div class="highlight">
+
+    <div class="first">
+        <fieldset>
+            <legend>What is your favourite meal</legend>
+                <input id="Rice" type="Radio" name="favouriteMeal" value="Meal1"><label for="Rice">Rice</label>
+                <input id="Beans" type="Radio" name="favouriteMeal" value="Meal2"><label for="Beans">Beans</label>
+                <input id="spaghetti" type="Radio" name="favouriteMeal" value="Meal3"><label for="spaghetti">Spaghetti</label>
+        </fieldset>
+    </div>
+
+    <div class="second">
+        <fieldset>
+            <legend>choose your favourite car(you can choose more than one option)</legend>
+            <input type="checkbox" id="MCB" name="favouritecar" value="car1"><label for="MCB">mercedez benz</label>
+            <input type="checkbox" id="TC" name="favouritecar" value="car2"><label for="TC">toyota corrola</label>
+            <input type="checkbox" id="RR" name="favouritecar" value="car3"><label for="RR">range rover</label>
+            <input type="checkbox" id="BMW" name="favouritecar" value="car4"><label for="BMW">bmw</label>
+        </fieldset>
+    </div>
+    
+</div>
+
+</body>
+
+</html>

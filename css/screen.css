@@ -1,0 +1,37 @@
+
+h2 {
+    color: orange;
+    text-align: center;
+    font: 400;
+
+}
+
+
+
+/* this is a single-line comment */
+
+header {
+font-size: larger;
+text-align: center;
+}
+
+header p {
+    font-size: large;
+    font-weight: 200;
+}
+
+.highlight {
+    margin: 30px;
+    color: blue;
+    width: 90%;
+}
+
+.first {
+    float: left;
+    width: 60%;
+}
+
+.second {
+    float: left;
+    width: 40%;
+}
